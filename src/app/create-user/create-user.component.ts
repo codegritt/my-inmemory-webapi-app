@@ -23,7 +23,7 @@ export class CreateUserComponent implements OnInit {
     this.userFormGroup = new FormGroup(
       {
         name : new FormControl(''),
-        model : new FormControl('')
+        email : new FormControl('')
       },
     );
     this.getUsers();
