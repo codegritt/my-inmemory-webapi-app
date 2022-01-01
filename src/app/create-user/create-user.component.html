@@ -1,8 +1,9 @@
 <h2>Add User</h2>
 
 <form [formGroup]='userFormGroup' (ngSubmit)='addUser()'  novalidate >
- <input class= "form-control" type="text" formControlName='name' placeholder="Enter Name"   />
+ <input class= "form-control" type="text" formControlName='name' placeholder="Enter Name"   /><br>
  <input class= "form-control" type="text" formControlName='email' placeholder="Enter Email"   />
+ <br>
 
  <button class= 'btn btn-info'>Add User</button></form>
 
