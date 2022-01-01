@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserData } from './user-data.service';
 
-import { from } from 'rxjs';
+
 import { HomeComponent } from './home/home.component';
 import { GetUserComponent } from './get-user/get-user.component';
 
